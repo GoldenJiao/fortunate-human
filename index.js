@@ -28,8 +28,7 @@ var p1= new player;
 var p2= new player;
 
 function nxtgame(){
-  scorecard.classList.add('hidden');
-  startButton.classList.remove('hidden');
+  location.reload();
 }
 
 function startGame(){
